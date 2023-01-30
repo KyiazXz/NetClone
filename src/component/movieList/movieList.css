@@ -13,3 +13,10 @@ margin:  2.5rem;
     flex-wrap: wrap ;
     justify-content: center;
 }
+.inputHolder {
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+    margin-top: 20px;
+   
+}

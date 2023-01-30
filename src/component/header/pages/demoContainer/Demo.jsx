@@ -1,11 +1,11 @@
 import React from 'react'
-import './movie.css'
+// import './movie.css'
 import { useState, useEffect } from 'react'
 import {useParams} from 'react-router-dom'
 
 
 
-export default function MovieContainer() {
+export default function Demo() {
     const [currentMovieDetail ,  setMovie] =  useState ( [ ] )
     const  {id} = useParams ()
 
@@ -61,7 +61,7 @@ export default function MovieContainer() {
             </div>
         </div>
         <div className="movie__links">
-            
+         
         </div>
     </div>
   )

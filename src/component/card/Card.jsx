@@ -11,7 +11,7 @@ export default function Card ({movie}) {
 
     useEffect (()=>{
         setTimeout (()=>{
-            setIsLoading(false)},1500)
+            setIsLoading(false)},1000)
     }, [] )
 
   return (
@@ -34,7 +34,7 @@ export default function Card ({movie}) {
                         {movie?movie.release_date:""}
                         <span className="card__rating">{movie?movie.vote_average:""}<i className="fas fa-star" /></span>
                 </div>
-                <div className="card__description">{movie ? movie.overview.slice(0,118)+"..." : ""}</div>
+                <div className="card__description">{movie ? movie.overview.substring(0,118)+"..." : ""}</div>
             </div>
             </div>
         </Link>

@@ -1,9 +1,12 @@
 .header{
     margin:0 2.5rem;
-    padding: .5rem 0 ;
+    padding: .5rem 0px ;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+   
+  
 }
 .headerLeft{
     display: flex;

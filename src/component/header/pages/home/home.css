@@ -1,11 +1,18 @@
+
 .posterImage{
     height: 600px;
+  
 }
 
 .posterImage > img {
     margin: auto;
     display: block;
     width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+
+
 }
 
 .posterImage__overlay {
@@ -21,7 +28,9 @@
     background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
     opacity: 1;
     transition: opacity .3s;
-}   
+    
+}
+  
 
 .posterImage__overlay:hover {
     opacity: 1;
